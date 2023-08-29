@@ -18,5 +18,3 @@ let typeNumberSix = Number(prompt('type a number'));
 
 
 
-
-
