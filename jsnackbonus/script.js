@@ -8,13 +8,27 @@ se è dispari inseriscilo nell’array.
 
 
 const oddList = []
+let i = 0;
 
-let typeNumberOne = Number(prompt('type a number'));
-let typeNumberTwo = Number(prompt('type a number'));
-let typeNumberThree = Number(prompt('type a number'));
-let typeNumberFour = Number(prompt('type a number'));
-let typeNumberFive = Number(prompt('type a number'));
-let typeNumberSix = Number(prompt('type a number'));
+while (i < 6) {
+    
+    const number = Number(prompt('type a number'))
+
+    i++
+
+    if (number % 2 == 1) {
+
+        oddList.push(number)
+        console.log(oddList);
+       
+    }
+
+}
+
+
+
+
+
 
 
 
